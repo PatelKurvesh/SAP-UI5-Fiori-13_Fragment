@@ -1,0 +1,12 @@
+
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog>
+		
+		<Text text="Hello, Welcom to Fragment"></Text>
+		<beginButton>
+			<Button text="ok" press="onDialogClose"></Button>
+		</beginButton>
+		
+	</Dialog>
+	
+</core:FragmentDefinition>
