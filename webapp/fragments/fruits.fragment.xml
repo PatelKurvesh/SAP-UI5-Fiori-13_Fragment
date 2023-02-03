@@ -9,6 +9,7 @@
 	<!--</Dialog>-->
 	
 	
+	
 	<!--If you want to use xml view type without dialog than write code and define in [view.xml] file-->
 	<List>
 		<ObjectListItem>
