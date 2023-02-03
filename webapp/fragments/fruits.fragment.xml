@@ -1,12 +1,19 @@
-
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
-	<Dialog>
+	<!--<Dialog>-->
 		
-		<Text text="Hello, Welcom to Fragment"></Text>
-		<beginButton>
-			<Button text="ok" press="onDialogClose"></Button>
-		</beginButton>
+	<!--	<Text text="Hello, Welcom to Fragment"></Text>-->
+	<!--	<beginButton>-->
+	<!--		<Button text="ok" press="onDialogClose"></Button>-->
+	<!--	</beginButton>-->
 		
-	</Dialog>
+	<!--</Dialog>-->
+	
+	
+	<!--If you want to use xml view type without dialog than write code and define in [view.xml] file-->
+	<List>
+		<ObjectListItem>
+			<ObjectAttribute text="Hello I am Fragment xml type without dialog"></ObjectAttribute>
+		</ObjectListItem>
+	</List>
 	
 </core:FragmentDefinition>

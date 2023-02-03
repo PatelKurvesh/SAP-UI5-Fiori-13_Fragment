@@ -1,5 +1,5 @@
 <mvc:View controllerName="GithubSAP-UI5-Fiori-13_Fragment.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core">
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
@@ -14,6 +14,10 @@
 						</ObjectListItem>
 					</List>
 				</content>
+				
+				
+				<!--define fragment for without dialog xml view-->
+				<core:Fragment fragmentName="GithubSAP-UI5-Fiori-13_Fragment.fragments.fruits" type="XML"></core:Fragment>
 			</Page>
 		</pages>
 	</App>
